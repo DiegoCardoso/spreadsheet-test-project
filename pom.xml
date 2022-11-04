@@ -11,7 +11,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <vaadin.version>23.3-SNAPSHOT</vaadin.version>
+        <vaadin.version>23.2.6</vaadin.version>
         <!-- this parameter is needed as spring-boot bom overwrites it -->
         <selenium.version>4.4.0</selenium.version>
         <!-- selenium is so much verbose -->
@@ -89,7 +89,7 @@
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-spreadsheet-flow</artifactId>
-            <version>${vaadin.version}</version>
+            <version>23.3-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
